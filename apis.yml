@@ -1,8 +1,13 @@
 aid: hidden-door
 name: Hidden Door
-description: 'Hidden Door is a company surfaced as a portfolio company of homebrew, northzone and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hidden Door is an interactive storytelling platform where roleplay meets fan fiction,
+  letting players step into imaginative worlds and shape branching narratives through their choices.
+  Players pick a pre-built world, add modifiers, create a character, and experience a unique story
+  with a full cast of characters, where every playthrough differs. Creators can build playable worlds
+  in as little as thirty minutes, then share, publish, and get paid when others play. The company was
+  surfaced as a portfolio company of Homebrew and Northzone and added to the API Evangelist network.
+  Hidden Door ships a consumer web experience and publishes no developer API, SDK, or developer portal
+  at this time. Sector: AI / entertainment.'
 url: https://raw.githubusercontent.com/api-evangelist/hidden-door/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hiddendoor.co/icons/icon-512x512.png
 tags:
 - Company
 - Ai
+- Storytelling
+- Interactive Fiction
+- Roleplay
+- Gaming
+- Entertainment
+- User Generated Content
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.hiddendoor.co
+- type: Pricing
+  url: https://www.hiddendoor.co/pricing
+- type: Support
+  url: https://www.hiddendoor.co/support
+- type: Blog
+  url: https://www.hiddendoor.co/blog
+- type: TermsOfService
+  url: https://www.hiddendoor.co/legal/terms
+- type: PrivacyPolicy
+  url: https://www.hiddendoor.co/legal/privacy
+- type: DomainSecurity
+  url: security/hidden-door-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
